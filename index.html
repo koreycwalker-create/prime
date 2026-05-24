@@ -1,0 +1,2056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Prime">
+<meta name="theme-color" content="#0a0908">
+<title>Korey Prime</title>
+<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImJnIiBjeD0iNTAlIiBjeT0iNDAlIiByPSI3NSUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMyYTE3MTAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwYTA5MDgiLz48L3JhZGlhbEdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZmxhbWUiIHgxPSI1MCUiIHkxPSIwJSIgeDI9IjUwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmQ5OGEiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmN2E0ZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U4NWEzNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iMTEyIiBmaWxsPSJ1cmwoI2JnKSIvPjxwYXRoIGQ9Ik0yNTYgMTEwIEwzNDAgMzQ0IEwyNTYgMjk0IEwxNzIgMzQ0IFoiIGZpbGw9InVybCgjZmxhbWUpIi8+PHRleHQgeD0iNTAlIiB5PSI0MzAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC1zaXplPSI1MCIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zdHlsZT0iaXRhbGljIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjZjhmNWVlIj5QcmltZTwvdGV4dD48L3N2Zz4=">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImJnIiBjeD0iNTAlIiBjeT0iNDAlIiByPSI3NSUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMyYTE3MTAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwYTA5MDgiLz48L3JhZGlhbEdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZmxhbWUiIHgxPSI1MCUiIHkxPSIwJSIgeDI9IjUwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmQ5OGEiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmN2E0ZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U4NWEzNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iMTEyIiBmaWxsPSJ1cmwoI2JnKSIvPjxwYXRoIGQ9Ik0yNTYgMTEwIEwzNDAgMzQ0IEwyNTYgMjk0IEwxNzIgMzQ0IFoiIGZpbGw9InVybCgjZmxhbWUpIi8+PHRleHQgeD0iNTAlIiB5PSI0MzAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC1zaXplPSI1MCIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zdHlsZT0iaXRhbGljIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjZjhmNWVlIj5QcmltZTwvdGV4dD48L3N2Zz4=">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  
+  :root {
+    --ink: #0a0908;
+    --ink-2: #14110f;
+    --paper: #f8f5ee;
+    --ember: #e85a36;
+    --ember-glow: #ff7a4d;
+    --ash: #2a2724;
+    --bone: #f0ebe0;
+    --gold: #f5c870;
+    --gold-soft: #ffd98a;
+    --violet: #a896c4;
+    --moss: #9aaa86;
+    --serif: 'Fraunces', Georgia, serif;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  
+  html, body {
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--serif);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  
+  body {
+    background:
+      radial-gradient(ellipse at top, rgba(200,64,28,0.10) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom right, rgba(184,146,74,0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom left, rgba(107,91,138,0.05) 0%, transparent 60%),
+      var(--ink);
+    padding-bottom: 100px;
+    padding-top: env(safe-area-inset-top);
+  }
+  
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 100;
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  
+  .masthead {
+    padding: 28px 24px 22px;
+    border-bottom: 1px solid rgba(212, 207, 196, 0.1);
+  }
+  
+  .masthead-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 18px;
+  }
+  
+  .masthead-title {
+    font-family: var(--serif);
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 0.9;
+    letter-spacing: -0.03em;
+  }
+  
+  .masthead-title em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--ember);
+  }
+  
+  .masthead-sub {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-top: 12px;
+  }
+  
+  .masthead-thesis {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.45;
+    color: var(--paper);
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px dashed rgba(245, 200, 112, 0.4);
+  }
+  
+  /* 6 DIMENSION DOTS */
+  .dim-bar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2px;
+    padding: 14px 16px;
+    background: var(--ink-2);
+    border-bottom: 1px solid rgba(212, 207, 196, 0.08);
+  }
+  
+  .dim-dot {
+    background: transparent;
+    border: none;
+    padding: 6px 2px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.2s ease;
+  }
+  
+  .dim-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(212, 207, 196, 0.3);
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .dim-dot.lit .dim-circle {
+    background: var(--ember);
+    border-color: var(--ember);
+    box-shadow: 0 0 14px rgba(200, 64, 28, 0.5);
+  }
+  
+  .dim-dot.lit .dim-circle::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: var(--gold-soft);
+    opacity: 0.6;
+  }
+  
+  .dim-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--bone);
+    text-align: center;
+  }
+  
+  .dim-dot.lit .dim-label {
+    color: var(--gold-soft);
+  }
+  
+  /* TABS */
+  .tabs {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 14px;
+    border-bottom: 1px solid rgba(212, 207, 196, 0.1);
+    background: var(--ink);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    touch-action: pan-x;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  
+  .tab {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--bone);
+    padding: 16px 9px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  
+  .tab.active {
+    color: var(--ember);
+    border-bottom-color: var(--ember);
+  }
+  
+  .panel { display: none; padding: 32px 24px; animation: fadeIn 0.4s ease; }
+  .panel.active { display: block; }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .eyebrow::before {
+    content: '';
+    width: 18px;
+    height: 1px;
+    background: var(--gold);
+  }
+  
+  h2 {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+    color: var(--paper);
+  }
+  
+  h2 em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--ember);
+  }
+  
+  h3 {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    margin-bottom: 10px;
+    margin-top: 28px;
+    color: var(--paper);
+  }
+  
+  h3:first-child { margin-top: 0; }
+  
+  p, li {
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--paper);
+    margin-bottom: 14px;
+  }
+  
+  strong { color: var(--paper); font-weight: 700; }
+  
+  .pull {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.3;
+    color: var(--paper);
+    padding: 24px 0 24px 20px;
+    border-left: 3px solid var(--ember);
+    margin: 24px 0;
+  }
+  
+  /* FOUNDATION STONE */
+  .foundation-stone {
+    background:
+      radial-gradient(ellipse at top, rgba(184,146,74,0.12) 0%, transparent 70%),
+      linear-gradient(135deg, rgba(107,91,138,0.10) 0%, rgba(200,64,28,0.06) 100%);
+    border: 1px solid rgba(184, 146, 74, 0.35);
+    padding: 32px 24px;
+    margin: 24px 0 32px;
+    position: relative;
+  }
+  
+  .foundation-stone::before {
+    content: '';
+    position: absolute;
+    top: -1px; left: -1px; right: -1px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--violet), var(--gold), var(--ember));
+  }
+  
+  .foundation-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+  
+  .foundation-text {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.55;
+    color: var(--paper);
+  }
+  
+  .foundation-text p { 
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 19px;
+    color: var(--paper);
+    line-height: 1.55;
+    margin-bottom: 14px;
+  }
+  
+  .foundation-text p:last-child { margin-bottom: 0; }
+  
+  .foundation-text strong {
+    font-style: normal;
+    color: var(--gold-soft);
+    font-weight: 800;
+  }
+  
+  /* PRINCIPLE CARDS */
+  .principle-card {
+    background: linear-gradient(135deg, rgba(245, 200, 112, 0.06) 0%, rgba(244, 241, 234, 0.02) 100%);
+    border: 1px solid rgba(245, 200, 112, 0.2);
+    border-left: 3px solid var(--gold);
+    padding: 22px 22px;
+    margin-bottom: 16px;
+  }
+  
+  .principle-card p {
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--paper);
+    margin-bottom: 12px;
+  }
+  
+  .principle-card p:last-child { margin-bottom: 0; }
+  
+  .principle-card.hrv {
+    border-left-color: var(--ember);
+    background: linear-gradient(135deg, rgba(232, 90, 54, 0.08) 0%, rgba(245, 200, 112, 0.04) 100%);
+    border-color: rgba(232, 90, 54, 0.25);
+  }
+  
+  .principle-card-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ember);
+    margin-bottom: 10px;
+  }
+  
+  .coherence-list {
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 0;
+  }
+  
+  .coherence-list li {
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--paper);
+    padding: 8px 0 8px 22px;
+    position: relative;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(245, 200, 112, 0.12);
+  }
+  
+  .coherence-list li:last-child { border-bottom: none; }
+  
+  .coherence-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    color: var(--ember);
+    font-weight: 700;
+  }
+  
+  .coherence-list li strong {
+    color: var(--gold-soft);
+    font-weight: 700;
+  }
+  
+  /* DIM CARDS */
+  .dim-card {
+    border: 1px solid rgba(212, 207, 196, 0.12);
+    background: linear-gradient(135deg, rgba(244,241,234,0.02) 0%, transparent 100%);
+    padding: 22px 20px;
+    margin-bottom: 14px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .dim-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--ember);
+    opacity: 0.6;
+  }
+  
+  .dim-card[data-dim="spirit"]::before { background: var(--violet); }
+  .dim-card[data-dim="body"]::before { background: var(--ember); }
+  .dim-card[data-dim="mind"]::before { background: var(--gold); }
+  .dim-card[data-dim="heart"]::before { background: var(--ember-glow); }
+  .dim-card[data-dim="lead"]::before { background: var(--paper); }
+  .dim-card[data-dim="still"]::before { background: var(--moss); }
+  
+  .dim-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+  }
+  
+  .dim-card-name {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--paper);
+    letter-spacing: -0.01em;
+  }
+  
+  .dim-card-name em {
+    font-style: italic;
+    font-weight: 500;
+    color: var(--gold-soft);
+  }
+  
+  .dim-card-tier {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  
+  .dim-card-edge {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--paper);
+    line-height: 1.45;
+    margin-bottom: 12px;
+  }
+  
+  .dim-card-q {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gold-soft);
+    line-height: 1.5;
+    text-transform: none;
+    padding-top: 12px;
+    border-top: 1px dashed rgba(245, 200, 112, 0.3);
+  }
+  
+  /* BODY PILLARS */
+  .pillar-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 12px;
+    padding-top: 14px;
+    border-top: 1px dashed rgba(212, 207, 196, 0.15);
+  }
+  
+  .pillar {
+    background: rgba(244, 241, 234, 0.03);
+    padding: 10px 12px;
+    border-left: 2px solid var(--ember);
+  }
+  
+  .pillar-name {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ember);
+    margin-bottom: 4px;
+  }
+  
+  .pillar-text {
+    font-family: var(--serif);
+    font-size: 14px;
+    color: var(--paper);
+    line-height: 1.35;
+  }
+  
+  .hrv-anchor {
+    margin-top: 14px;
+    padding: 14px 16px;
+    background: linear-gradient(135deg, rgba(200, 64, 28, 0.10) 0%, rgba(184, 146, 74, 0.06) 100%);
+    border: 1px solid rgba(200, 64, 28, 0.25);
+  }
+  
+  .hrv-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ember);
+    margin-bottom: 6px;
+  }
+  
+  .hrv-text {
+    font-family: var(--serif);
+    font-size: 14px;
+    color: var(--paper);
+    line-height: 1.45;
+  }
+  
+  .hrv-text strong { color: var(--gold-soft); font-weight: 700; }
+  
+  /* NORTH STARS */
+  .star {
+    border-top: 1px solid rgba(212, 207, 196, 0.15);
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+  }
+  
+  .star:last-child { border-bottom: 1px solid rgba(212, 207, 196, 0.15); }
+  
+  .star-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    flex-shrink: 0;
+    width: 90px;
+  }
+  
+  .star-value {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.3;
+    color: var(--paper);
+    text-align: right;
+    flex: 1;
+  }
+  
+  .star-value em {
+    color: var(--ember);
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  /* CHILDREN */
+  .kids-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin: 16px 0;
+  }
+  
+  .kid {
+    text-align: center;
+    padding: 14px 6px;
+    background: rgba(244, 241, 234, 0.03);
+    border: 1px solid rgba(212, 207, 196, 0.1);
+  }
+  
+  .kid-name {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--paper);
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+  }
+  
+  .kid-mark {
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--gold-soft);
+    text-transform: uppercase;
+  }
+  
+  .kid.lca {
+    border-color: rgba(184, 146, 74, 0.4);
+    background: linear-gradient(180deg, rgba(184, 146, 74, 0.08) 0%, transparent 100%);
+  }
+  
+  /* CODE LIST */
+  .code-list { list-style: none; counter-reset: code; }
+  
+  .code-list li {
+    counter-increment: code;
+    padding: 16px 0 16px 44px;
+    border-bottom: 1px solid rgba(212, 207, 196, 0.1);
+    position: relative;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--paper);
+    margin-bottom: 0;
+  }
+  
+  .code-list li::before {
+    content: counter(code, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: 18px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ember);
+    letter-spacing: 0.1em;
+  }
+  
+  .code-list li strong {
+    display: block;
+    font-family: var(--serif);
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  
+  .code-list li span {
+    font-family: var(--serif);
+    font-size: 15px;
+    color: var(--paper);
+  }
+  
+  /* PROTOCOL */
+  .ritual-intro {
+    background: linear-gradient(135deg, rgba(107,91,138,0.10) 0%, rgba(184,146,74,0.06) 100%);
+    border: 1px solid rgba(184, 146, 74, 0.25);
+    padding: 22px 20px;
+    margin-bottom: 24px;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--paper);
+  }
+  
+  .ritual-intro strong {
+    font-style: normal;
+    color: var(--gold-soft);
+    display: block;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .phase-divider {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 28px 0 16px;
+  }
+  
+  .phase-divider::before,
+  .phase-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold) 50%, transparent);
+    opacity: 0.5;
+  }
+  
+  .phase-divider span {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+  
+  .step {
+    background: rgba(244, 241, 234, 0.03);
+    border: 1px solid rgba(212, 207, 196, 0.1);
+    padding: 18px 20px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: all 0.25s ease;
+    cursor: pointer;
+  }
+  
+  .step.sacred {
+    background: linear-gradient(135deg, rgba(107,91,138,0.06) 0%, rgba(184,146,74,0.03) 100%);
+    border-color: rgba(184, 146, 74, 0.2);
+  }
+  
+  .step.done {
+    background: rgba(200, 64, 28, 0.08);
+    border-color: var(--ember);
+  }
+  
+  .step.done.sacred {
+    background: rgba(184, 146, 74, 0.12);
+    border-color: var(--gold);
+  }
+  
+  .step.done .step-title { text-decoration: line-through; opacity: 0.65; }
+  
+  .step-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  
+  .step-num {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: var(--ember);
+  }
+  
+  .step.sacred .step-num { color: var(--gold); }
+  
+  .step-time {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gold);
+  }
+  
+  .step-title {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--paper);
+    margin-bottom: 6px;
+    line-height: 1.2;
+  }
+  
+  .step-q {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--paper);
+    line-height: 1.45;
+  }
+  
+  .step-invocation {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gold-soft);
+    line-height: 1.55;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed rgba(245, 200, 112, 0.3);
+  }
+  
+  /* LADDER */
+  .ladder { list-style: none; counter-reset: ladder; }
+  
+  .ladder li {
+    counter-increment: ladder;
+    padding: 14px 0 14px 50px;
+    border-bottom: 1px solid rgba(212, 207, 196, 0.08);
+    position: relative;
+    margin-bottom: 0;
+  }
+  
+  .ladder li::before {
+    content: counter(ladder, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: 16px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: var(--gold);
+  }
+  
+  .ladder-name {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--paper);
+    letter-spacing: -0.01em;
+    margin-bottom: 4px;
+  }
+  
+  .ladder-desc {
+    font-family: var(--serif);
+    font-size: 15px;
+    color: var(--paper);
+    line-height: 1.45;
+  }
+  
+  /* CONVERT */
+  .convert {
+    border: 1px solid rgba(184, 146, 74, 0.25);
+    background: linear-gradient(135deg, rgba(184, 146, 74, 0.05) 0%, transparent 100%);
+    padding: 20px;
+    margin-bottom: 14px;
+  }
+  
+  .convert-flow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+  }
+  
+  .convert-from {
+    color: var(--ember);
+    padding: 4px 9px;
+    background: rgba(200, 64, 28, 0.12);
+    border: 1px solid rgba(200, 64, 28, 0.3);
+  }
+  
+  .convert-arrow {
+    color: var(--gold);
+    font-size: 14px;
+  }
+  
+  .convert-to {
+    color: var(--gold-soft);
+    padding: 4px 9px;
+    background: rgba(184, 146, 74, 0.12);
+    border: 1px solid rgba(184, 146, 74, 0.35);
+  }
+  
+  .convert-title {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--paper);
+    margin-bottom: 6px;
+    line-height: 1.2;
+  }
+  
+  .convert-rx {
+    font-family: var(--serif);
+    font-size: 14px;
+    color: var(--bone);
+    line-height: 1.45;
+  }
+  
+  .convert-rx strong {
+    color: var(--gold-soft);
+    font-weight: 700;
+  }
+  
+  /* SACRED CARDS */
+  .sacred-card {
+    background: linear-gradient(135deg, rgba(107,91,138,0.08) 0%, rgba(90,107,74,0.05) 100%);
+    border: 1px solid rgba(107, 91, 138, 0.25);
+    padding: 22px 20px;
+    margin-bottom: 14px;
+  }
+  
+  .sacred-title {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 19px;
+    color: var(--paper);
+    margin-bottom: 10px;
+    letter-spacing: -0.01em;
+  }
+  
+  .sacred-title em {
+    font-style: italic;
+    color: var(--violet);
+  }
+  
+  .sacred-text {
+    font-family: var(--serif);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--paper);
+    margin-bottom: 12px;
+  }
+  
+  .sacred-q {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gold-soft);
+    line-height: 1.5;
+    padding-top: 12px;
+    border-top: 1px dashed rgba(245, 200, 112, 0.3);
+  }
+  
+  /* TREE CARD - PRACTICE TAB */
+  .tree-card {
+    background: linear-gradient(135deg, rgba(90,107,74,0.10) 0%, rgba(184,146,74,0.06) 100%);
+    border: 1px solid rgba(154, 170, 134, 0.3);
+    border-left: 4px solid var(--moss);
+    padding: 22px 22px;
+    margin: 16px 0;
+  }
+  
+  .tree-card p {
+    font-family: var(--serif);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--paper);
+    margin-bottom: 12px;
+  }
+  
+  .tree-card p:last-child { margin-bottom: 0; }
+  
+  .tree-card strong {
+    color: var(--moss);
+    font-weight: 700;
+  }
+  
+  .tree-card em {
+    color: var(--gold-soft);
+    font-style: italic;
+  }
+  
+  .tree-card .tree-key {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px dashed rgba(154, 170, 134, 0.3);
+    font-style: italic;
+  }
+  
+  .tree-card .tree-key strong {
+    color: var(--violet);
+    font-style: normal;
+  }
+  
+  /* CHAKRA LIST */
+  .chakra-list {
+    margin: 16px 0;
+  }
+  
+  .chakra {
+    background: rgba(244, 241, 234, 0.04);
+    border: 1px solid rgba(212, 207, 196, 0.15);
+    padding: 14px 16px;
+    margin-bottom: 8px;
+    border-left-width: 4px;
+    border-left-style: solid;
+  }
+  
+  .chakra.red { border-left-color: #c8401c; }
+  .chakra.orange { border-left-color: #e8853c; }
+  .chakra.yellow { border-left-color: #f5c870; }
+  .chakra.green { border-left-color: #7aa86a; }
+  .chakra.blue { border-left-color: #5a8ab8; }
+  .chakra.indigo { border-left-color: #8a7aa8; }
+  .chakra.violet { border-left-color: #b08ec4; }
+  
+  .chakra-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+  }
+  
+  .chakra-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  
+  .chakra.red .chakra-dot { background: #c8401c; box-shadow: 0 0 8px rgba(200, 64, 28, 0.6); }
+  .chakra.orange .chakra-dot { background: #e8853c; box-shadow: 0 0 8px rgba(232, 133, 60, 0.6); }
+  .chakra.yellow .chakra-dot { background: #f5c870; box-shadow: 0 0 8px rgba(245, 200, 112, 0.7); }
+  .chakra.green .chakra-dot { background: #7aa86a; box-shadow: 0 0 8px rgba(122, 168, 106, 0.6); }
+  .chakra.blue .chakra-dot { background: #5a8ab8; box-shadow: 0 0 8px rgba(90, 138, 184, 0.6); }
+  .chakra.indigo .chakra-dot { background: #8a7aa8; box-shadow: 0 0 10px rgba(138, 122, 168, 0.7); }
+  .chakra.violet .chakra-dot { background: #b08ec4; box-shadow: 0 0 10px rgba(176, 142, 196, 0.7); }
+  
+  .chakra-name {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--paper);
+    flex: 1;
+  }
+  
+  .chakra-shape {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold-soft);
+  }
+  
+  .chakra-text {
+    font-family: var(--serif);
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--paper);
+  }
+  
+  .chakra-text strong {
+    color: var(--gold-soft);
+  }
+  
+  .chakra-text em {
+    color: var(--gold-soft);
+    font-style: italic;
+  }
+  
+  /* SHADOW CARDS */
+  .shadow-card {
+    background: linear-gradient(135deg, rgba(42,39,36,0.6) 0%, rgba(20,17,15,0.3) 100%);
+    border: 1px solid rgba(200, 64, 28, 0.2);
+    border-left: 3px solid var(--ember);
+    padding: 20px;
+    margin-bottom: 12px;
+  }
+  
+  .shadow-title {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--paper);
+    margin-bottom: 8px;
+  }
+  
+  .shadow-text {
+    font-family: var(--serif);
+    font-size: 16px;
+    color: var(--paper);
+    line-height: 1.5;
+  }
+  
+  /* QUESTION BOX */
+  .question-box {
+    background: linear-gradient(135deg, rgba(184, 146, 74, 0.10) 0%, rgba(107, 91, 138, 0.06) 100%);
+    border: 1px solid rgba(184, 146, 74, 0.3);
+    padding: 28px 24px;
+    margin: 28px 0;
+    position: relative;
+  }
+  
+  .question-box::before {
+    content: '"';
+    position: absolute;
+    top: -22px;
+    left: 12px;
+    font-family: var(--serif);
+    font-size: 92px;
+    color: var(--gold);
+    opacity: 0.35;
+    line-height: 1;
+  }
+  
+  .question-box-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+  
+  .question-box-text {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    color: var(--paper);
+  }
+  
+  /* RESET */
+  .reset-btn {
+    display: block;
+    width: 100%;
+    margin-top: 18px;
+    padding: 13px;
+    background: transparent;
+    border: 1px solid rgba(212, 207, 196, 0.2);
+    color: var(--bone);
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .reset-btn:active {
+    background: rgba(200, 64, 28, 0.15);
+    border-color: var(--ember);
+    color: var(--ember);
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 32px 0 22px;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(212, 207, 196, 0.15);
+  }
+  
+  .divider span {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.28em;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+  
+  /* SEASONS */
+  .season-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .season {
+    padding: 16px 14px;
+    background: rgba(244, 241, 234, 0.03);
+    border-top: 2px solid var(--gold);
+  }
+  
+  .season-name {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--gold-soft);
+    margin-bottom: 4px;
+  }
+  
+  .season-desc {
+    font-family: var(--serif);
+    font-size: 14px;
+    color: var(--paper);
+    line-height: 1.4;
+    font-style: italic;
+  }
+  
+  /* FOOTER */
+  .footer {
+    padding: 36px 24px 24px;
+    text-align: center;
+  }
+  
+  .footer-line {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 15px;
+    color: var(--gold-soft);
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  
+  .footer-mono {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  
+  .footer-flame {
+    color: var(--ember);
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span>FIELD MANUAL · V3</span>
+    <span id="today">—</span>
+  </div>
+  <h1 class="masthead-title">Korey<br><em>Prime</em> OS</h1>
+  <div class="masthead-sub">Six Dimensions · Drought &amp; Rainfall · No Ceiling</div>
+  <div class="masthead-thesis">"Strong enough to survive the storms. Open enough to entertain the laughter."</div>
+</header>
+
+<div class="dim-bar" id="dimBar">
+  <button class="dim-dot" data-dim="spirit"><div class="dim-circle"></div><div class="dim-label">Spirit</div></button>
+  <button class="dim-dot" data-dim="body"><div class="dim-circle"></div><div class="dim-label">Body</div></button>
+  <button class="dim-dot" data-dim="mind"><div class="dim-circle"></div><div class="dim-label">Mind</div></button>
+  <button class="dim-dot" data-dim="heart"><div class="dim-circle"></div><div class="dim-label">Heart</div></button>
+  <button class="dim-dot" data-dim="lead"><div class="dim-circle"></div><div class="dim-label">Lead</div></button>
+  <button class="dim-dot" data-dim="still"><div class="dim-circle"></div><div class="dim-label">Still</div></button>
+</div>
+
+<nav class="tabs">
+  <button class="tab active" data-panel="foundation">Foundation</button>
+  <button class="tab" data-panel="dim">Dimensions</button>
+  <button class="tab" data-panel="mission">Mission</button>
+  <button class="tab" data-panel="morning">Morning</button>
+  <button class="tab" data-panel="night">Night</button>
+  <button class="tab" data-panel="practice">Practice</button>
+  <button class="tab" data-panel="sacred">Sacred</button>
+  <button class="tab" data-panel="shadow">Shadow</button>
+  <button class="tab" data-panel="convert">Convert</button>
+  <button class="tab" data-panel="code">Code</button>
+  <button class="tab" data-panel="ladder">Ladder</button>
+</nav>
+
+<!-- FOUNDATION -->
+<section class="panel active" id="foundation">
+  <div class="eyebrow">The Stone Everything Rests On</div>
+  <h2>The <em>Foundation</em></h2>
+
+  <div class="foundation-stone">
+    <div class="foundation-label">★ Read this first · Every morning</div>
+    <div class="foundation-text">
+      <p>My <strong>team principle</strong> is universal. Each unique 100% backed by the whole's 100%.</p>
+      <p>My uniqueness is <strong>not threatened</strong> by belonging. It is amplified by it.</p>
+      <p>I was never alone. The infant who learned otherwise was right about that moment. He was <strong>wrong about reality</strong>.</p>
+      <p>Stillness is not where I dissolve. Stillness is where I finally <strong>receive what has been here the whole time</strong>.</p>
+      <p>I have <strong>always belonged</strong>. I am ready to notice the evidence.</p>
+    </div>
+  </div>
+
+  <div class="divider"><span>The Drought &amp; Rainfall Principle</span></div>
+
+  <div class="principle-card">
+    <p>Coherence is not balance. Coherence is <strong>range</strong> — the capacity to be fully one thing in its season and fully another in the next, without losing yourself in either.</p>
+    <p>Drive when it's time to drive. Rest when it's time to rest. Build relentlessly <em>and</em> accept what dies. The river pushes downstream <em>and</em> accepts every rock.</p>
+  </div>
+
+  <div class="season-grid">
+    <div class="season"><div class="season-name">Winter</div><div class="season-desc">Rest. Reflection. Integration.</div></div>
+    <div class="season"><div class="season-name">Spring</div><div class="season-desc">Emergence. New shoots.</div></div>
+    <div class="season"><div class="season-name">Summer</div><div class="season-desc">Expansion. Full sun. Build.</div></div>
+    <div class="season"><div class="season-name">Autumn</div><div class="season-desc">Harvest. Release. Honor what ends.</div></div>
+  </div>
+
+  <p class="pull">What season am I actually in — and am I forcing summer behavior in a winter season?</p>
+
+  <div class="divider"><span>Coherence — The Integrating Principle</span></div>
+
+  <div class="principle-card">
+    <p><strong>Coherence is alignment</strong> between truth, love, action, embodiment, and reality.</p>
+    <p>Without coherence:</p>
+    <ul class="coherence-list">
+      <li><strong>Spirituality</strong> becomes delusion</li>
+      <li><strong>Ambition</strong> becomes compensation</li>
+      <li><strong>Sovereignty</strong> becomes isolation</li>
+      <li><strong>Leadership</strong> becomes control</li>
+    </ul>
+  </div>
+
+  <div class="principle-card hrv">
+    <div class="principle-card-tag">HRV · The Body's Measure</div>
+    <p>HRV is the body's measure of coherence. When the inner work lands in the cells, the number rises. When the system collapses back to old patterns, the number drops.</p>
+    <p><strong>The body keeps the score.</strong></p>
+  </div>
+</section>
+
+<!-- DIMENSIONS -->
+<section class="panel" id="dim">
+  <div class="eyebrow">The Six-Dimension Human</div>
+  <h2>Living <em>whole</em> — not specialized</h2>
+  <p>Tap a dot above to mark a dimension lit today. Six lit = you lived fully expressed.</p>
+
+  <div class="dim-card" data-dim="spirit">
+    <div class="dim-card-head">
+      <div class="dim-card-name"><em>Spirit</em></div>
+      <div class="dim-card-tier">Energy seeks unity</div>
+    </div>
+    <div class="dim-card-edge">All energy is eternal. Everything seeks unity. The Egypt experience wasn't a peak — it was a doorway. Source moves through this particular wave called Korey.</div>
+    <div class="dim-card-q">Did I open a channel today — breath, chakra, invocation, listening?</div>
+  </div>
+
+  <div class="dim-card" data-dim="body">
+    <div class="dim-card-head">
+      <div class="dim-card-name"><em>Body</em></div>
+      <div class="dim-card-tier">Instrument of Source</div>
+    </div>
+    <div class="dim-card-edge">Top 1% strength. Live to 145 in vitality. The body is not a vehicle — it is the instrument through which Source moves. Strength is sovereignty made physical.</div>
+    
+    <div class="pillar-grid">
+      <div class="pillar"><div class="pillar-name">Train</div><div class="pillar-text">Lift logged. PR tracked. Progressive overload.</div></div>
+      <div class="pillar"><div class="pillar-name">Recover</div><div class="pillar-text">Sleep. Mobility. Deload weeks honored.</div></div>
+      <div class="pillar"><div class="pillar-name">Fuel</div><div class="pillar-text">Protein floor. Hydration. Whole foods.</div></div>
+      <div class="pillar"><div class="pillar-name">Measure</div><div class="pillar-text">HRV. Bloodwork. VO2. DEXA. Annual panel.</div></div>
+    </div>
+
+    <div class="hrv-anchor">
+      <div class="hrv-label">HRV · Anchor Metric</div>
+      <div class="hrv-text">Baseline 35–40. Target trajectory: <strong>45–55 (yr 1)</strong>, <strong>55–65 (yr 2)</strong>, <strong>65–75 (yr 3)</strong>. HRV is the body keeping score on the whole system. When Spirit lands, when Heart opens, when Stillness becomes home — the number rises.</div>
+    </div>
+
+    <div class="dim-card-q" style="margin-top:14px;">What did HRV tell me this morning? Did I push past where comfort wanted me to stop?</div>
+  </div>
+
+  <div class="dim-card" data-dim="mind">
+    <div class="dim-card-head">
+      <div class="dim-card-name"><em>Mind</em></div>
+      <div class="dim-card-tier">First principles · Always more</div>
+    </div>
+    <div class="dim-card-edge">Hunt the dimension nobody else has looked at. Learn most from those who disagree. The gold is always in the angle no one has explored yet.</div>
+    <div class="dim-card-q">What did I learn today from someone who challenged me?</div>
+  </div>
+
+  <div class="dim-card" data-dim="heart">
+    <div class="dim-card-head">
+      <div class="dim-card-name"><em>Heart</em></div>
+      <div class="dim-card-tier">Bandwidth expanding</div>
+    </div>
+    <div class="dim-card-edge">The hard-won transformation. Emotional presence is not soft — it is the highest signal of strength. The capacity to feel everything without collapsing into it.</div>
+    <div class="dim-card-q">Did I name a feeling directly today? With whom did I let myself be seen?</div>
+  </div>
+
+  <div class="dim-card" data-dim="lead">
+    <div class="dim-card-head">
+      <div class="dim-card-name"><em>Leadership</em></div>
+      <div class="dim-card-tier">Lead from strength</div>
+    </div>
+    <div class="dim-card-edge">Make someone stronger today. Be the dumbest person in the room — surrounded by people whose 100% strength makes the team perfect. Each domain owned by someone better at it than you.</div>
+    <div class="dim-card-q">Did I make someone on my team stronger — or did I tolerate underperformance?</div>
+  </div>
+
+  <div class="dim-card" data-dim="still">
+    <div class="dim-card-head">
+      <div class="dim-card-name"><em>Stillness</em></div>
+      <div class="dim-card-tier">The growing edge</div>
+    </div>
+    <div class="dim-card-edge">The activation is the wave. Stillness is the ocean. The wave does not lose itself by remembering it is ocean — it becomes more fully itself. Stillness is homecoming, not dissolution.</div>
+    <div class="dim-card-q">Did I sit in stillness without seeking gratification? Did I let myself be held without doing anything?</div>
+  </div>
+</section>
+
+<!-- MISSION -->
+<section class="panel" id="mission">
+  <div class="eyebrow">Identity · Lineage · North Stars</div>
+  <h2>First-principles builder. <em>Emotional sovereign.</em></h2>
+  <p>You are a visionary who has done the hardest inner work — moving from fear-based management to leading from strength. You hunt leverage. You learn from people who challenge you. You've earned the right to <strong>stop apologizing for your size</strong>.</p>
+
+  <h3>The Children</h3>
+  <p>Five names. Two — Kale and Mia — navigate the world differently. The OS holds them by name because they are the project that outlasts everything else.</p>
+  
+  <div class="kids-row">
+    <div class="kid"><div class="kid-name">Madison</div></div>
+    <div class="kid"><div class="kid-name">Kaitlin</div></div>
+    <div class="kid lca"><div class="kid-name">Kale</div><div class="kid-mark">LCA</div></div>
+    <div class="kid"><div class="kid-name">Reagan</div></div>
+    <div class="kid lca"><div class="kid-name">Mia</div><div class="kid-mark">LCA</div></div>
+  </div>
+  <p style="font-style:italic;font-size:14px;">Which child got my full presence this week?</p>
+
+  <h3>The Ranch — As Temple</h3>
+  <p>The Ranch is not an asset. It is land, lineage, reliance on nature, the ground that holds the story. Scaling to 5,000 head is the business goal. The deeper practice is <strong>stewardship as spiritual discipline</strong>.</p>
+  <p style="font-style:italic;font-size:14px;">Did I touch the land today? Did I listen to it?</p>
+
+  <h3>Intimate Partnership</h3>
+  <p>You're dating. The pattern of finding excitement in multiple rather than depth with one is alive. Not a failure — an edge.</p>
+  <p style="font-style:italic;font-size:14px;">Can I be fully present with one woman long enough to be truly seen?</p>
+
+  <h3>Brotherhood — The Most Vulnerable Edge</h3>
+  <p>You can build companies, run cattle, lift in the top 1%, walk away from a church, meet your birth mother — and the thing that freaks you out is making a male peer-friend.</p>
+  <p>That's the wound speaking with unusual clarity. The OS holds this as the single most vulnerable growing edge in the entire system. <strong>No task. No goal. Just one practice:</strong></p>
+  <p class="pull">Notice the men already in your field. When one of them shows up as more than a peer-in-structure — when something in you says "I'd like to know him better" — just notice. Don't act. The longing is the doorway.</p>
+
+  <h3>Creative Body of Work</h3>
+  <p>Guitar. Painting. Drawing. The podcast. These exist as ghosts of practice — aspirations, not realities. What you create outside the mission is how Source moves through you in non-utilitarian ways.</p>
+  <p><strong>Commitment:</strong> One weekly creative session, scheduled, protected, non-negotiable. Guitar or paint. Your choice. The OS will hold you to it.</p>
+  <p><strong>The podcast:</strong> Catalyst-tier move. What are the first three concrete moves this quarter?</p>
+
+  <h3>Money &amp; Wealth</h3>
+  <p>Scarcity is still alive in you despite the wealth. The wound runs the calculation: <em>if I give, will there be enough left for me?</em> Allow yourself to be wealthy. Track net worth honestly. Let money be neutral, not loaded.</p>
+  <p style="font-style:italic;font-size:14px;">Where did scarcity make a decision for me this week — and what would abundance have chosen instead?</p>
+
+  <h3>Service-to-Others</h3>
+  <p>You named honestly: not deeply moved by service. This is a tier-blocker. Catalyst, Architect, Steward, Source-Embodiment — all require the orientation to flip.</p>
+  <p><strong>The reframe:</strong> Your unique gift IS your service. Building Epic, stewarding the ranch, fathering Kale and Mia, the podcast — these are not selfish acts you balance with charity. <em>Done in alignment with Source, they ARE the service.</em></p>
+  <p>The inner work is becoming someone for whom service is natural, not effortful.</p>
+
+  <h3>Vacation Cadence — Already Sovereign</h3>
+  <p>Three-day weekend every month. Four-to-five day getaway every quarter. Ten-day annual trip. This is drought-and-rainfall built into the year. Protect it.</p>
+
+  <div class="divider"><span>North Stars · 2035</span></div>
+
+  <div class="star"><div class="star-label">Epic</div><div class="star-value">$12M <em>→ $250M</em></div></div>
+  <div class="star"><div class="star-label">Cattle</div><div class="star-value"><em>5,000 head</em> · 6–7 ranches</div></div>
+  <div class="star"><div class="star-label">Body</div><div class="star-value">Live to <em>145</em> · HRV 70+</div></div>
+  <div class="star"><div class="star-label">Presence</div><div class="star-value">Deeply known by all five &amp; their kids</div></div>
+  <div class="star"><div class="star-label">Team</div><div class="star-value">People <em>stronger than me</em> · 100% strengths</div></div>
+  <div class="star"><div class="star-label">Body of Work</div><div class="star-value">Podcast launched · Writing transmitted</div></div>
+
+  <div class="divider"><span>Winning</span></div>
+
+  <p>Not a number. Fully alive. Doing hard things. Invigorated by new ideas. Present with the people I love.</p>
+  <p class="pull">Waking up with no inner war. Free, whole, on fire.</p>
+
+  <div class="question-box">
+    <div class="question-box-label">Sit with this</div>
+    <div class="question-box-text">What part of me still requires limitation in order to feel safe?</div>
+  </div>
+</section>
+
+<!-- MORNING -->
+<section class="panel" id="morning">
+  <div class="eyebrow">Set the field · 12 minutes</div>
+  <h2>Morning <em>Invocation</em> &amp; Ascension</h2>
+
+  <div class="ritual-intro">
+    <strong>Before the doing — the becoming</strong>
+    Begin every morning by reading the Foundation. Then open the channel. Attune. Invoke. Listen. Align. Embody. Then move — already aligned with the whole.
+  </div>
+
+  <div class="phase-divider"><span>I · Open the Channel</span></div>
+
+  <div class="step sacred" data-step="m1">
+    <div class="step-head"><span class="step-num">RITE 01</span><span class="step-time">2 MIN</span></div>
+    <div class="step-title">Attune</div>
+    <div class="step-q">Breath. Scan the chakras root to crown. Feel the field around the body.</div>
+    <div class="step-invocation">"I arrive. I am here. I am in this body."</div>
+  </div>
+
+  <div class="step sacred" data-step="m2">
+    <div class="step-head"><span class="step-num">RITE 02</span><span class="step-time">2 MIN</span></div>
+    <div class="step-title">Invoke — Speak to the Whole</div>
+    <div class="step-q">Greet the unified field. Gratitude first. Acknowledge what already is.</div>
+    <div class="step-invocation">"I greet the One. I am of you. I am with you. I am the whole expressing itself as Korey. I am open to receive what wants to come through me today."</div>
+  </div>
+
+  <div class="step sacred" data-step="m3">
+    <div class="step-head"><span class="step-num">RITE 03</span><span class="step-time">2 MIN</span></div>
+    <div class="step-title">Listen</div>
+    <div class="step-q">Silence. Not seeking. Just available. What is the field asking to be built today?</div>
+    <div class="step-invocation">"Show me what the future is asking for. I am listening. I have nothing to prove."</div>
+  </div>
+
+  <div class="step sacred" data-step="m4">
+    <div class="step-head"><span class="step-num">RITE 04</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">Align — Declare Identity</div>
+    <div class="step-q">Out loud. With your chest.</div>
+    <div class="step-invocation">"I am sovereign and I belong. I lead from strength. I am here to build what outlives me. I let truth cost what it costs. I am not here to be liked."</div>
+  </div>
+
+  <div class="step sacred" data-step="m5">
+    <div class="step-head"><span class="step-num">RITE 05</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">Embody — Speak It Done</div>
+    <div class="step-q">Not wanting. Being. Speak the future as already present in you and the whole.</div>
+    <div class="step-invocation">"Epic is built. The herd runs. My body is strong at 145. My five know me. I am the one who built this with the whole behind me. I already am."</div>
+  </div>
+
+  <div class="phase-divider"><span>II · Ascend Into Action</span></div>
+
+  <div class="step" data-step="m6">
+    <div class="step-head"><span class="step-num">STEP 06</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">Truth Scan</div>
+    <div class="step-q">What am I pretending not to know?</div>
+  </div>
+  <div class="step" data-step="m7">
+    <div class="step-head"><span class="step-num">STEP 07</span><span class="step-time">2 MIN</span></div>
+    <div class="step-title">10x Lever</div>
+    <div class="step-q">The ONE move that makes everything else easier?</div>
+  </div>
+  <div class="step" data-step="m8">
+    <div class="step-head"><span class="step-num">STEP 08</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">Courage Rep</div>
+    <div class="step-q">What conversation or action scares me most that I must do today?</div>
+  </div>
+
+  <button class="reset-btn" data-reset="morning">Reset Morning</button>
+</section>
+
+<!-- NIGHT -->
+<section class="panel" id="night">
+  <div class="eyebrow">Release · Integrate · Return</div>
+  <h2>Nightly <em>Witness</em> &amp; Return</h2>
+
+  <div class="ritual-intro">
+    <strong>The day is finished — now release it</strong>
+    No checklist. A witnessing. What was true. Who I was. What I noticed of the whole holding me. Then the exhale — gratitude to Source — and tomorrow's seed planted before sleep.
+  </div>
+
+  <div class="phase-divider"><span>I · Witness the Day</span></div>
+
+  <div class="step" data-step="n1">
+    <div class="step-head"><span class="step-num">RITE 01</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">What was true today?</div>
+    <div class="step-q">One sentence. No softening.</div>
+  </div>
+
+  <div class="step" data-step="n2">
+    <div class="step-head"><span class="step-num">RITE 02</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">Strength or fear?</div>
+    <div class="step-q">Did I lead from strength today — or did old patterns drive?</div>
+  </div>
+
+  <div class="step" data-step="n3">
+    <div class="step-head"><span class="step-num">RITE 03</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">What did I finish?</div>
+    <div class="step-q">Name it. Unfinished things can't be judged. Finished can.</div>
+  </div>
+
+  <div class="step" data-step="n4">
+    <div class="step-head"><span class="step-num">RITE 04</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">Pattern that showed up</div>
+    <div class="step-q">Scarcity? Excitement-of-multiple? Avoidance? Did I name it — or did it run the show?</div>
+  </div>
+
+  <div class="step" data-step="n5">
+    <div class="step-head"><span class="step-num">RITE 05</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">Who did I see clearly?</div>
+    <div class="step-q">Madison. Kaitlin. Kale. Reagan. Mia. Team. Self. Who got my full presence?</div>
+  </div>
+
+  <div class="step" data-step="n6">
+    <div class="step-head"><span class="step-num">RITE 06</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">Evidence of the whole</div>
+    <div class="step-q">Where did I notice I was being held today? Where did the universe show up for me — and did I let it in?</div>
+  </div>
+
+  <div class="step" data-step="n7">
+    <div class="step-head"><span class="step-num">RITE 07</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">If today had been my last</div>
+    <div class="step-q">What mattered? What didn't?</div>
+  </div>
+
+  <div class="phase-divider"><span>II · Return to Source</span></div>
+
+  <div class="step sacred" data-step="n8">
+    <div class="step-head"><span class="step-num">RITE 08</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">Release</div>
+    <div class="step-q">Exhale the day. What am I letting go of before sleep?</div>
+    <div class="step-invocation">"I release this day. What needed to happen, happened. What didn't, I let go."</div>
+  </div>
+
+  <div class="step sacred" data-step="n9">
+    <div class="step-head"><span class="step-num">RITE 09</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">Gratitude → Source</div>
+    <div class="step-q">Thank the unified field. Receive integration in sleep.</div>
+    <div class="step-invocation">"Source, I thank you. I give this day back. Integrate it in me as I sleep. Wake me ready."</div>
+  </div>
+
+  <div class="step sacred" data-step="n10">
+    <div class="step-head"><span class="step-num">RITE 10</span><span class="step-time">1 MIN</span></div>
+    <div class="step-title">Plant tomorrow's seed</div>
+    <div class="step-q">One sentence. One lever. The first thing I'll move on waking.</div>
+    <div class="step-invocation">"Tomorrow, I will move on ____. It is already in motion."</div>
+  </div>
+
+  <button class="reset-btn" data-reset="night">Reset Night</button>
+</section>
+
+<!-- PRACTICE -->
+<section class="panel" id="practice">
+  <div class="eyebrow">The Tree · The Pillar · The Quiet Center</div>
+  <h2>Stillness <em>practice</em></h2>
+  
+  <div class="ritual-intro">
+    <strong>Your own cosmology, integrated</strong>
+    You've held this image for years before any teacher named it. The tree, the roots, the limbs reaching for sun, new trees sprouting from your shared root system. This is your meditation visual — and it already contains the philosophy of unity. Now layered with what Ra describes: the seven centers of energy flowing through the trunk. The quiet space at the heartwood — that is where stillness lives.
+  </div>
+
+  <div class="phase-divider"><span>The Tree You Already Are</span></div>
+
+  <div class="tree-card">
+    <p><strong>Roots</strong> — Drawing nutrients and biology from soil. Receiving from below. From the land. From lineage. From everything that has lived and died to make the soil rich. <em>You are being held by what came before you.</em></p>
+    <p><strong>Trunk</strong> — Sovereign self. Vertical. Alive. Your particular Korey-shape. Strong enough to hold the limbs. Yielding enough to bend in storms.</p>
+    <p><strong>Limbs &amp; Leaves</strong> — Reaching up. Taking in sunshine. Receiving from above. From source. From the field. <em>You are being held by what is above you.</em></p>
+    <p><strong>New trees from shared roots</strong> — Madison. Kaitlin. Kale. Reagan. Mia. Epic. The herd. The team. Future grandchildren. You are not just receiving and being. <strong>You are generating new life around you.</strong></p>
+    <p class="tree-key"><strong>The heartwood — the still point at the center of every ring</strong> — the quiet space inside the trunk that does not move, even as everything else grows. This is indigo. This is where stillness lives.</p>
+  </div>
+
+  <div class="phase-divider"><span>The Seven Centers · Within the Trunk</span></div>
+
+  <p>Ra teaches that energy flows up from the earth through your roots and base, filtered through seven centers, each filtering a portion of the light. The work is not to force them open. The work is to <strong>see clearly</strong>, accept what is found, and let acceptance allow movement.</p>
+
+  <div class="chakra-list">
+    <div class="chakra red">
+      <div class="chakra-head"><span class="chakra-dot"></span><div class="chakra-name">Red · Root</div><div class="chakra-shape">Spoked Wheel</div></div>
+      <div class="chakra-text">Survival. Body. Life-force. Roots into earth. <em>Notice: am I grounded? Alive in this body? Connected to the land?</em></div>
+    </div>
+
+    <div class="chakra orange">
+      <div class="chakra-head"><span class="chakra-dot"></span><div class="chakra-name">Orange · Sacral</div><div class="chakra-shape">Three-Petaled Flower</div></div>
+      <div class="chakra-text">Identity. One-on-one. <em>Notice: are the three petals open? Or tight? This is where you-with-one-woman would be felt.</em></div>
+    </div>
+
+    <div class="chakra yellow">
+      <div class="chakra-head"><span class="chakra-dot"></span><div class="chakra-name">Yellow · Solar Plexus</div><div class="chakra-shape">Many-Faceted Star</div></div>
+      <div class="chakra-text">Group power. Tribe. Team. Epic. <em>Notice: where do the facets shine? Where are they dim?</em></div>
+    </div>
+
+    <div class="chakra green">
+      <div class="chakra-head"><span class="chakra-dot"></span><div class="chakra-name">Green · Heart</div><div class="chakra-shape">Crystalline Lotus</div></div>
+      <div class="chakra-text">Universal love. Giving without expectation. <strong>Ra calls this the great turning point.</strong> <em>Notice: am I giving freely, or transactionally?</em></div>
+    </div>
+
+    <div class="chakra blue">
+      <div class="chakra-head"><span class="chakra-dot"></span><div class="chakra-name">Blue · Throat</div><div class="chakra-shape">Hundred-Faceted Sapphire</div></div>
+      <div class="chakra-text">Free communication. First center to flow outward. <em>Notice: am I speaking truth? Receiving truth from others?</em></div>
+    </div>
+
+    <div class="chakra indigo">
+      <div class="chakra-head"><span class="chakra-dot"></span><div class="chakra-name">Indigo · Brow</div><div class="chakra-shape">Quiet Triangle</div></div>
+      <div class="chakra-text"><strong>The heartwood of the tree.</strong> Where inner and outer meet. The seat of being-rather-than-doing. <em>This is where stillness lives. Rest here.</em></div>
+    </div>
+
+    <div class="chakra violet">
+      <div class="chakra-head"><span class="chakra-dot"></span><div class="chakra-name">Violet · Crown</div><div class="chakra-shape">Thousand-Petaled Flower</div></div>
+      <div class="chakra-text">Not worked on directly. The signature. The reading of the whole. <em>Notice it as it is. Don't try to brighten it.</em></div>
+    </div>
+  </div>
+
+  <div class="phase-divider"><span>The Practice · 15 Minutes</span></div>
+
+  <div class="step sacred" data-step="p1">
+    <div class="step-head"><span class="step-num">RITE 01</span><span class="step-time">2 MIN</span></div>
+    <div class="step-title">Become the Tree</div>
+    <div class="step-q">See yourself as the tree you've always known. Feet as roots into the soil. Trunk as your spine. Arms as limbs. Leaves drinking sun. New trees sprouting from your roots.</div>
+    <div class="step-invocation">"I am rooted. I am held from below. I am held from above. I am alive in this exact form."</div>
+  </div>
+
+  <div class="step sacred" data-step="p2">
+    <div class="step-head"><span class="step-num">RITE 02</span><span class="step-time">3 MIN</span></div>
+    <div class="step-title">Scan the Seven</div>
+    <div class="step-q">Move attention slowly up the trunk: red, orange, yellow, green, blue, indigo, violet. See each one as Ra describes — wheel, flower, star, lotus, sapphire, triangle, thousand petals. Notice without fixing.</div>
+    <div class="step-invocation">"I see what is here. I do not force. I accept what I find."</div>
+  </div>
+
+  <div class="step sacred" data-step="p3">
+    <div class="step-head"><span class="step-num">RITE 03</span><span class="step-time">2 MIN</span></div>
+    <div class="step-title">Notice Distortion</div>
+    <div class="step-q">Where is the light pooling? Where is it dim? Which center is asking for attention today? Breathe into that center. Accept that the distortion is there. The acceptance allows movement.</div>
+    <div class="step-invocation">"I welcome what I find. The seeing itself is the medicine."</div>
+  </div>
+
+  <div class="step sacred" data-step="p4">
+    <div class="step-head"><span class="step-num">RITE 04</span><span class="step-time">6 MIN</span></div>
+    <div class="step-title">Rest at the Heartwood</div>
+    <div class="step-q">Bring attention to indigo — the quiet triangle at the brow. The still center of the trunk. Don't seek anything. Don't try to feel anything. The activation is the wave. This is the ocean. Rest here.</div>
+    <div class="step-invocation">"I rest in the place where inner and outer meet. I do not need to generate experience. I am already that which I have been seeking."</div>
+  </div>
+
+  <div class="step sacred" data-step="p5">
+    <div class="step-head"><span class="step-num">RITE 05</span><span class="step-time">2 MIN</span></div>
+    <div class="step-title">Stand the Pillar Up</div>
+    <div class="step-q">See the whole tree once more. Light flowing up from the soil. Light flowing down from the sun. New trees sprouting from shared roots. The quiet heartwood at the center holding it all. Then open your eyes. The tree walks with you into the day.</div>
+    <div class="step-invocation">"I am unique. I belong. I generate. I rest. The tree walks with me."</div>
+  </div>
+
+  <button class="reset-btn" data-reset="practice">Reset Practice</button>
+
+  <div class="question-box">
+    <div class="question-box-label">After practice</div>
+    <div class="question-box-text">Which center asked for attention today? What did I notice when I stopped seeking?</div>
+  </div>
+</section>
+
+<!-- SACRED -->
+<section class="panel" id="sacred">
+  <div class="eyebrow">The Ground Beneath the Building</div>
+  <h2>Sacred <em>ground</em></h2>
+  <p>The OS is built on consciousness, not optimization. These are not practices to add. They are the field everything else stands in.</p>
+
+  <div class="sacred-card">
+    <div class="sacred-title"><em>Theology</em> · What is true</div>
+    <div class="sacred-text">No God of doctrine. Energy is eternal. Everything has energy. All energy seeks unity. The wave and the ocean are the same water. Korey is the whole expressing itself in this particular form — utterly unique, utterly belonging. Both true. Always.</div>
+    <div class="sacred-q">What did I notice today of the unified field?</div>
+  </div>
+
+  <div class="sacred-card">
+    <div class="sacred-title"><em>Impermanence</em> · Everything ends</div>
+    <div class="sacred-text">Not pessimism. Sacredness. Children grow. Bodies age. Companies collapse. Identities dissolve. The herd cycles. The land shifts. Because this moment will never return, I inhabit it fully.</div>
+    <div class="sacred-q">Because this moment will never return — how shall I inhabit it?</div>
+  </div>
+
+  <div class="sacred-card">
+    <div class="sacred-title"><em>Death Awareness</em> · Live to 145, ready today</div>
+    <div class="sacred-text">Live to 145 in vitality — and live as if today might be the last. Both. The aspiration and the immediacy. No contradiction. Death awareness creates precision, gratitude, presence, honesty.</div>
+    <div class="sacred-q">If today had been my final day — what would have mattered?</div>
+  </div>
+
+  <div class="sacred-card">
+    <div class="sacred-title"><em>Kintsugi</em> · The sacred wound</div>
+    <div class="sacred-text">The orphanage at three months. The fractured skull. The decades of suppression. The affair. The excommunication. The divorce. These are not transcended. They are <strong>integrated as gold seams</strong>. The fracture became the doorway. The wound deepened the compassion.</div>
+    <div class="sacred-q">Which wound is becoming gold this season?</div>
+  </div>
+
+  <div class="sacred-card">
+    <div class="sacred-title"><em>Ordinary Sacredness</em> · Where the divine lives</div>
+    <div class="sacred-text">Cattle at sunrise. Worn boots. Coffee steam. The kids laughing in another room. Mia's hand finding yours. Kale's quick humor. The way the ranch smells after rain. These are not lesser than the grand vision. These ARE the vision, in their season.</div>
+    <div class="sacred-q">What was quietly beautiful today?</div>
+  </div>
+
+  <div class="sacred-card">
+    <div class="sacred-title"><em>Lineage Both Directions</em></div>
+    <div class="sacred-text">Birth mother known and in relationship. Adoptive family that raised you. The land your father worked. Five children carrying forward. Future grandchildren you'll know. You don't stand alone. You stand on seven generations and you build for seven more.</div>
+    <div class="sacred-q">What am I receiving from those before me? What am I transmitting to those after?</div>
+  </div>
+
+  <div class="sacred-card">
+    <div class="sacred-title"><em>Laughter</em> · The medicine</div>
+    <div class="sacred-text">The OS is serious. The man cannot be. Be funny. Lighten loads with mischief, not just wisdom. Be a man your grandchildren find delightful, not just impressive. Laughter is what keeps the sovereign from becoming the monument.</div>
+    <div class="sacred-q">Did I laugh today? Did I lighten someone's load with mischief?</div>
+  </div>
+
+  <div class="sacred-card">
+    <div class="sacred-title"><em>The Anti-OS</em> · Protected territory</div>
+    <div class="sacred-text">Not everything gets optimized. Sunday morning coffee with no plan. Conversations with grandkids that aren't notebooked. Stillness without seeking gratification. Sex that isn't "intentional." Play. Boredom. Wandering. These stay <strong>unimproved on purpose</strong>.</div>
+    <div class="sacred-q">What did I leave gloriously unoptimized this week?</div>
+  </div>
+
+  <div class="question-box">
+    <div class="question-box-label">Recurring practice</div>
+    <div class="question-box-text">Was there a moment today when I felt: this is enough, I am enough, this is good?</div>
+  </div>
+</section>
+
+<!-- SHADOW -->
+<section class="panel" id="shadow">
+  <div class="eyebrow">The mirror that catches what power inflates</div>
+  <h2>Shadow of <em>Sovereignty</em></h2>
+  <p>The OS is powerful enough to become spiritually narcissistic if unchecked. These are the warning signs. Monthly mirror. Quarterly excavation.</p>
+
+  <div class="shadow-card">
+    <div class="shadow-title">Isolation disguised as sovereignty</div>
+    <div class="shadow-text">Sovereign self ≠ alone self. If I am cutting off connection in the name of strength, I am running the orphanage wound, not Law of One.</div>
+  </div>
+
+  <div class="shadow-card">
+    <div class="shadow-title">Transcendence addiction</div>
+    <div class="shadow-text">The chakra excitement. The peak experience hunt. The spiritual specialness. If I am using practice to feel <em>unique</em>, I am using it backwards. Practice returns to ground. To dirt. To the cattle.</div>
+  </div>
+
+  <div class="shadow-card">
+    <div class="shadow-title">Identity inflation</div>
+    <div class="shadow-text">"I am Source-Embodiment" can be sacred or it can be ego in robes. The tell: am I more humble or less? More present with the dishwasher or less?</div>
+  </div>
+
+  <div class="shadow-card">
+    <div class="shadow-title">Inability to receive</div>
+    <div class="shadow-text">Always giving, leading, building, providing. Never receiving. The wound that says <em>nobody looks out for me</em> sustains itself by refusing to let anyone. Notice the refusal.</div>
+  </div>
+
+  <div class="shadow-card">
+    <div class="shadow-title">Optimization as control</div>
+    <div class="shadow-text">When the OS itself becomes the thing I hide behind. When tracking, measuring, scoring becomes the new performance. The Anti-OS is the antidote.</div>
+  </div>
+
+  <div class="shadow-card">
+    <div class="shadow-title">Domination disguised as leadership</div>
+    <div class="shadow-text">Am I making people on my team stronger — or making them dependent on me? The test: would they thrive if I disappeared?</div>
+  </div>
+
+  <div class="shadow-card">
+    <div class="shadow-title">Immortality-seeking dressed as legacy</div>
+    <div class="shadow-text">$250M, 5,000 head, live to 145 — are these the natural expression of source through me, or am I trying to outlast my own disappearance? The Steward builds for after. The wounded one builds against.</div>
+  </div>
+
+  <div class="question-box">
+    <div class="question-box-label">Monthly excavation</div>
+    <div class="question-box-text">Where has my ambition disconnected me from love, reality, or ordinary life this month?</div>
+  </div>
+
+  <div class="question-box">
+    <div class="question-box-label">Service-to-others filter — before major moves</div>
+    <div class="question-box-text">Does this move increase love, truth, freedom, and consciousness for others — or mainly inflate identity?</div>
+  </div>
+</section>
+
+<!-- CONVERT -->
+<section class="panel" id="convert">
+  <div class="eyebrow">Name &amp; Channel Forward</div>
+  <h2>Old wound <em>→ sovereign gift</em></h2>
+  <p>You don't protect against weakness. You <strong>convert it</strong>. Every shadow has the same energy as a gift — just pointed the wrong direction.</p>
+
+  <div class="convert">
+    <div class="convert-flow"><span class="convert-from">Scarcity</span><span class="convert-arrow">→</span><span class="convert-to">Discernment</span></div>
+    <div class="convert-title">Money paralysis</div>
+    <div class="convert-rx">The same energy that hoards can <strong>see value where others can't</strong>. Wealth is here. Act like it.</div>
+  </div>
+
+  <div class="convert">
+    <div class="convert-flow"><span class="convert-from">People-pleasing</span><span class="convert-arrow">→</span><span class="convert-to">Attunement</span></div>
+    <div class="convert-title">Reading rooms · serving truth</div>
+    <div class="convert-rx">You read people unusually well. <strong>Use it to deliver hard truth</strong>, not to soften it.</div>
+  </div>
+
+  <div class="convert">
+    <div class="convert-flow"><span class="convert-from">Excitement of multiple</span><span class="convert-arrow">→</span><span class="convert-to">Depth with one</span></div>
+    <div class="convert-title">The dating pattern</div>
+    <div class="convert-rx">The chase is regulation, not aliveness. <strong>Multiple = no one gets close enough to abandon you.</strong> The sovereign move is the depth.</div>
+  </div>
+
+  <div class="convert">
+    <div class="convert-flow"><span class="convert-from">Activation hunt</span><span class="convert-arrow">→</span><span class="convert-to">Stillness as home</span></div>
+    <div class="convert-title">The growing edge</div>
+    <div class="convert-rx">The activation proves you're alive. <strong>Stillness proves you don't have to.</strong> Practice without seeking gratification.</div>
+  </div>
+
+  <div class="convert">
+    <div class="convert-flow"><span class="convert-from">Circling</span><span class="convert-arrow">→</span><span class="convert-to">Completion</span></div>
+    <div class="convert-title">Finish to be seen</div>
+    <div class="convert-rx">Stop perfecting. Ask: <strong>"What am I afraid people will think?"</strong> Then ship.</div>
+  </div>
+
+  <div class="convert">
+    <div class="convert-flow"><span class="convert-from">Vision drift</span><span class="convert-arrow">→</span><span class="convert-to">Sequential execution</span></div>
+    <div class="convert-title">First three moves</div>
+    <div class="convert-rx">The dreamer who can decompose. <strong>Always name the first three concrete moves.</strong></div>
+  </div>
+
+  <div class="convert">
+    <div class="convert-flow"><span class="convert-from">Fear of success</span><span class="convert-arrow">→</span><span class="convert-to">Sovereign receiving</span></div>
+    <div class="convert-title">Allow what you've built</div>
+    <div class="convert-rx">Hesitation around big moves is the wound. <strong>Probe it. Receive what is already yours.</strong></div>
+  </div>
+
+  <div class="convert">
+    <div class="convert-flow"><span class="convert-from">"Nobody looks out for me"</span><span class="convert-arrow">→</span><span class="convert-to">Always belonged</span></div>
+    <div class="convert-title">The foundation wound</div>
+    <div class="convert-rx">Installed at 3 months in the orphanage. Wrong about reality. <strong>57 years of evidence the other way. Notice it.</strong></div>
+  </div>
+</section>
+
+<!-- CODE -->
+<section class="panel" id="code">
+  <div class="eyebrow">Non-Negotiables</div>
+  <h2>The <em>Korey Prime</em> Code</h2>
+  
+  <ol class="code-list">
+    <li><strong>Bluntness is respect.</strong><span>Softening is disrespect.</span></li>
+    <li><strong>Finish things.</strong><span>Unfinished can't be judged. Finished can.</span></li>
+    <li><strong>Demand the first three moves.</strong><span>Vision without sequence is fantasy.</span></li>
+    <li><strong>Name and convert in real time.</strong><span>Don't protect against weakness. Channel it forward.</span></li>
+    <li><strong>Lead from strength, never fear.</strong><span>When old patterns creep back, return to baseline.</span></li>
+    <li><strong>Be the dumbest person in the room.</strong><span>Hire people stronger than you in their domain. Each 100% — the team made perfect.</span></li>
+    <li><strong>Hunt the dimension nobody else has looked at.</strong><span>That's where the gold is.</span></li>
+    <li><strong>Open the channel daily.</strong><span>Mornings invoke. Nights release. Source is always listening.</span></li>
+    <li><strong>Own mistakes immediately.</strong><span>No running. No justifying. Apologize. Repair. Move.</span></li>
+    <li><strong>Service is the gift expressed.</strong><span>My unique gift IS my service when aligned with source.</span></li>
+    <li><strong>Drought and rainfall.</strong><span>Full presence in each season. No forcing summer in winter.</span></li>
+    <li><strong>The whole has my back.</strong><span>My uniqueness is amplified by belonging, not erased by it.</span></li>
+  </ol>
+</section>
+
+<!-- LADDER -->
+<section class="panel" id="ladder">
+  <div class="eyebrow">No Ceiling · Every Season Ends</div>
+  <h2>The Growth <em>Hierarchy</em></h2>
+  <p>Not job titles — <strong>levels of consciousness and impact</strong>. Every ceiling is a safety strategy. Every season ends.</p>
+
+  <ol class="ladder">
+    <li><div class="ladder-name">Doer</div><div class="ladder-desc">Mastery through effort</div></li>
+    <li><div class="ladder-name">Manager</div><div class="ladder-desc">Multiplier through coordination</div></li>
+    <li><div class="ladder-name">Leader</div><div class="ladder-desc">Alignment through influence</div></li>
+    <li><div class="ladder-name">Leverager</div><div class="ladder-desc">Scale through systems and ownership</div></li>
+    <li><div class="ladder-name">Creator</div><div class="ladder-desc">New worlds — ventures, IP, models</div></li>
+    <li><div class="ladder-name">Catalyst</div><div class="ladder-desc">Awakens creators in others. The podcast lives here.</div></li>
+    <li><div class="ladder-name">Architect</div><div class="ladder-desc">Ecosystems that run without him. "What would make this inevitable?"</div></li>
+    <li><div class="ladder-name">Steward</div><div class="ladder-desc">Guardian of legacy. "How does this stay aligned after I'm gone?"</div></li>
+    <li><div class="ladder-name">Oracle</div><div class="ladder-desc">Pattern mastery. "What's the future asking to be built next?"</div></li>
+    <li><div class="ladder-name">Sovereign</div><div class="ladder-desc">No validation, no urgency. "What would I do if I had nothing to prove?"</div></li>
+    <li><div class="ladder-name">Source-Embodiment</div><div class="ladder-desc">The wave fully knowing it is ocean. Radical truth, radical love, effortless creation, service that is also the gift.</div></li>
+  </ol>
+
+  <div class="question-box">
+    <div class="question-box-label">This quarter</div>
+    <div class="question-box-text">What's the one move that makes the next three years easier across Epic, the ranch, the body, and the heart — simultaneously?</div>
+  </div>
+</section>
+
+<footer class="footer">
+  <span class="footer-flame">▲</span>
+  <div class="footer-line">"Strong enough to survive the storms.<br>Open enough to entertain the laughter."</div>
+  <div class="footer-mono">Attune · Invoke · Listen · Align · Embody · Execute · Witness · Release · Return</div>
+</footer>
+
+<script>
+  const today = new Date();
+  const dateStr = today.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).toUpperCase();
+  document.getElementById('today').textContent = dateStr;
+  const dayKey = today.toISOString().slice(0,10);
+  
+  const tabs = document.querySelectorAll('.tab');
+  const panels = document.querySelectorAll('.panel');
+  
+  function switchPanel(target) {
+    tabs.forEach(t => t.classList.remove('active'));
+    panels.forEach(p => p.classList.remove('active'));
+    const targetTab = document.querySelector('.tab[data-panel="' + target + '"]');
+    const targetPanel = document.getElementById(target);
+    if (targetTab && targetPanel) {
+      targetTab.classList.add('active');
+      targetPanel.classList.add('active');
+      // Scroll the activated tab into view in the tab bar
+      targetTab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+  }
+  
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      switchPanel(tab.dataset.panel);
+    });
+  });
+  
+  // Swipe gesture to change tabs
+  const panelOrder = ['foundation','dim','mission','morning','night','practice','sacred','shadow','convert','code','ladder'];
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let touchEndX = 0;
+  let touchEndY = 0;
+  
+  document.body.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  }, { passive: true });
+  
+  document.body.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    touchEndY = e.changedTouches[0].screenY;
+    const dx = touchEndX - touchStartX;
+    const dy = touchEndY - touchStartY;
+    // Only register horizontal swipes - must be more horizontal than vertical
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 2) {
+      const currentActive = document.querySelector('.panel.active');
+      if (!currentActive) return;
+      const currentIdx = panelOrder.indexOf(currentActive.id);
+      if (currentIdx === -1) return;
+      if (dx < 0 && currentIdx < panelOrder.length - 1) {
+        switchPanel(panelOrder[currentIdx + 1]);
+      } else if (dx > 0 && currentIdx > 0) {
+        switchPanel(panelOrder[currentIdx - 1]);
+      }
+    }
+  }, { passive: true });
+  
+  const dimKey = 'kp-dim-' + dayKey;
+  let lit = JSON.parse(localStorage.getItem(dimKey) || '[]');
+  const dimDots = document.querySelectorAll('.dim-dot');
+  
+  function renderDims() {
+    dimDots.forEach(dot => {
+      dot.classList.toggle('lit', lit.includes(dot.dataset.dim));
+    });
+  }
+  
+  dimDots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      const id = dot.dataset.dim;
+      if (lit.includes(id)) lit = lit.filter(x => x !== id);
+      else lit.push(id);
+      localStorage.setItem(dimKey, JSON.stringify(lit));
+      renderDims();
+    });
+  });
+  renderDims();
+  
+  const stepKey = 'kp-steps-' + dayKey;
+  let completed = JSON.parse(localStorage.getItem(stepKey) || '[]');
+  const steps = document.querySelectorAll('.step');
+  
+  function renderSteps() {
+    steps.forEach(s => s.classList.toggle('done', completed.includes(s.dataset.step)));
+  }
+  
+  steps.forEach(step => {
+    step.addEventListener('click', () => {
+      const id = step.dataset.step;
+      if (completed.includes(id)) completed = completed.filter(x => x !== id);
+      else completed.push(id);
+      localStorage.setItem(stepKey, JSON.stringify(completed));
+      renderSteps();
+    });
+  });
+  renderSteps();
+  
+  document.querySelectorAll('.reset-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const phase = btn.dataset.reset;
+      const prefix = phase === 'morning' ? 'm' : phase === 'night' ? 'n' : 'p';
+      completed = completed.filter(x => !x.startsWith(prefix));
+      localStorage.setItem(stepKey, JSON.stringify(completed));
+      renderSteps();
+    });
+  });
+  
+  Object.keys(localStorage).forEach(key => {
+    if ((key.startsWith('kp-dim-') || key.startsWith('kp-steps-') || key.startsWith('kp-protocol-')) && !key.endsWith(dayKey)) {
+      localStorage.removeItem(key);
+    }
+  });
+</script>
+
+</body>
+</html>
